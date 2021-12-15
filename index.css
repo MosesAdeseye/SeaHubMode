@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 2rem;
+}
+
+html{
+    font-size: 62.3%;
+}
+header{
+
+    display: flex;
+    justify-content:flex-end;
+    padding: 7px;
+    font-size: larger;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: 250px;
+    justify-content: space-around;
+    border-radius: 30px;
+    text-align: center;
+}
+.btn{
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    padding: 10px;
+    display: inline-block;
+}
+.container{
+    height: 70vh;
+    background-image: url(media/pic2.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.container1{
+    height: 200px;
+    background-color:green;
+    display: flex;
+    margin: auto;
+    width: 800px;
+}
+a{
+    text-decoration: none;
+}
+.breake{
+    font-size: 7.5rem;
+
+}
+.text{
+    font-size:10rem ;
+    color: rgb(201, 201, 19);
+    
+}
+.sub-text{
+    color: #0c7b6c;
+    font-size: 12rem;
+    font-weight: bolder;
+}
+.section{
+    padding: 4rem;
+}
+.section-header{
+    margin-bottom:2rem;
+}
+.section p{
+    color: #4e4c4c;
+    line-height: 3rem;
+    /* letter-spacing: .1px */
+}
+.activity-img-cont{
+    height: 50vh;
+    overflow: hidden;
+}
+.section-2{
+    padding: 10rem;
+}
+@media (max-width:500px){
+    .text{
+        font-size: 5rem;
+        margin-top: 3rem;
+    }
+    .sub-text{
+        font-size: 10rem;
+    }
+
+}
