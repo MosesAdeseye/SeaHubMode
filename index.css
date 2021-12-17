@@ -89,5 +89,9 @@ a{
     .sub-text{
         font-size: 10rem;
     }
+    
+    header ul{
+        width: 100%;
+    }
 
 }
