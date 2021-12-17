@@ -5,6 +5,8 @@ body{
 section{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: brown;
+    margin: auto;
 }
 .card{
     width: 100%;
@@ -32,11 +34,15 @@ h1 {
 }
 .animation {
     width: 100%;
-    height: 350px;
+    height: 400px;
     overflow: hidden;
     background-color: crimson;
     color: darkgoldenrod;
     margin-top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .head {
     background-color: darkgrey;
@@ -45,4 +51,15 @@ h1 {
     float: left;
     width: 100%;
     height: 50px;
+}
+.video {
+    width: 30%;
+    height: 350px;
+    background-color: darkcyan;
+    margin: 30px;
+}
+.page {
+    background-color: darkgoldenrod;
+    width: 200%;
+    height: 600px;
 }
